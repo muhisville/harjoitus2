@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="fi">
-</html>
-<html>
-    <head>
-        <title>Villen verkkosivuharjoitus</title>
-    </head>
-    <body>
-        <h1>Minun verkkosivusto</h1>
-        <p title="Hi there web designer!">Tämä on kappale eli p-elementti</p>
-        <p>Tässä on toinen pe-elementti</p>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Villen sivu</title>
+  </head>
+  <body>
+    <h1>Ville Muhonen</h1>
+    <p>Olen tietojenkäsittelyn opiskelija.</p>
+    <img src="../WS01_HTML/pics/IMG_0572.jpg" alt="Kuva Villestä" style="width: 300px; height: 450px"><br><br>
+    <h2>Harrastukseni</h2>
+    <ol>
+      <li>Salilla käynti</li>
+      <li>Uiminen</li>
+      <li>Laulaminen</li>
+      <li>Lenkkeily</li>
+      <li>Kulttuuririennot</li>
+    </ol>
+    <br><br>
+    <a href="https://www.oikotie.fi/asunnot"
+      >Viime aikoina olen käynyt paljon tällä sivulla</a><br><br>
+    <h2>Meneillään olevat kurssit</h2>
+    <table>
+      <tr>
+        <th>Kurssi</th>
+        <th>Kurssin koodi</th>
+        <th>Pakollinen / ei</th>
+      </tr>
+      <tr>
+        <td>Websivuston kehittäminen</td>
+        <td>ND00CC04-3001</td>
+        <td>Kyllä</td>
+      </tr>
+      <tr>
+        <td>Professional Communication in English</td>
+        <td>HL00BY89-3034</td>
+        <td>Kyllä</td>
+      </tr>
+      <tr>
+        <td>Johdatus Linux-käyttöjärjestelmään</td>
+        <td>E9955-3009</td>
+        <td>Ei</td>
+      </tr>
+      <tr>
+        <td>Liiketoimintaympäristöt</td>
+        <td>ND00CC00-3001</td>
+        <td>Kyllä</td>
+      </tr>
+    </table><br><br>
+    <form>
+      <label for="etunimi">Etunimi:</label>
+      <input type="text" id="etunimi" name="etunimi"><br><br>
+      <label for="sukunimi">Sukunimi:</label>
+      <input type="text" id="sukunimi" name="sukunimi"><br><br>
+      <label for="email">Sähköposti:</label>
+      <input type="text" id="email" name="email"><br><br>
+      <input type="submit" value="Lähetä">
+    </form>
+  </body>
 </html>
