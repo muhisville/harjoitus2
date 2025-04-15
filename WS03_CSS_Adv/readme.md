@@ -1,1 +1,1 @@
-Tähän kasioon tehdään vaativamman tason CSS-harjoituksia.
+Tähän kasioon tein vaativamman tason CSS-harjoituksia. 
