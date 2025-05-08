@@ -1,0 +1,1 @@
+Tähän kansioon teen Bootstrap-harjoituksen.
