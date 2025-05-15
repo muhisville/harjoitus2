@@ -13,6 +13,8 @@ h1 {
   height: 250px;
   object-fit: cover;
   margin-bottom: auto;
+-webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
 }
 .kuvalaatikko {
   width: 100%;
@@ -52,8 +54,14 @@ footer {
 .ratio {
     margin-bottom: 20px;
 }
+.karuselli {
+text-shadow: 2px 2px 4px #000000
+}
+h5 {
+    text-shadow: 2px 2px 4px #000000
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .center {
     font-size: 35px;
   }
