@@ -34,7 +34,7 @@ h1 {
 .leipa {
   color: antiquewhite;
   padding-top: 15px;
-  text-align: justify;
+  text-align: left;
 }
 
 .col-md-8 {
@@ -64,15 +64,14 @@ h5 {
     text-shadow: 2px 2px 4px #000000
 }
 .kuvake {
-float: left;
-width: 150px;
+width: 100%;
 height: auto;
-margin-right: 15px;
-margin-bottom: 15px;
+margin-top: 20px;
 }
 .valio {
-text-transform: capitalize;
-font-weight: bold;;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 20px;
 }
 @media only screen and (max-width: 768px) {
   .center {
