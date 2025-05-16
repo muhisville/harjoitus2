@@ -3,6 +3,10 @@ body {
   color: antiquewhite;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.palkki {
+    background-color: rgb(43, 48, 53);
+    width: 100%;
+}
 h1 {
   padding-top: 15px;
   font-size: 35px;
@@ -48,11 +52,12 @@ h1 {
 footer {
   position: relative;
   bottom: 0;
-  background-color: rgb(13, 13, 13);
   width: 100%;
   height: auto;
  padding: 5px;
  color: antiquewhite;
+ border-top: 4px solid rgb(192 0 0); 
+ margin-top: 30px;
 }
 .ratio {
     margin-bottom: 20px;
@@ -73,8 +78,19 @@ text-transform: uppercase;
 font-weight: bold;
 margin-top: 20px;
 }
+a {
+    color: rgb(192 0 0);
+    font-weight: bold;
+}
 @media only screen and (max-width: 768px) {
   .center {
-    font-size: 35px;
+    font-size: 30px;
+  }
+  .h5 {
+    font-size: 18px;
+  }
+  .karuselli {
+    font-size: 14px;
+    line-height: 1;
   }
 }
